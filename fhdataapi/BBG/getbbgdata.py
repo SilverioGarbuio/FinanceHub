@@ -391,7 +391,7 @@ class BBG(object):
         Returns a DataFrame with payment dates as the index and cash flows are separated between
         'Principal' and 'Coupon' payments.
 
-        :param bond: str. Bloomber ID number for the bond (this is not the ticker)
+        :param bond: str. Bloomber ID number or ticker for the bond
         :param date: str, datetime or timestamp. Date from which to look ahead and grab the future cash flows
         :return: DataFrame
         """
